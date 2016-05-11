@@ -43,7 +43,7 @@ imports:
   containers: io.cloudslang.docker.containers
   strings: io.cloudslang.base.strings
   utils: io.cloudslang.base.utils
-  math: io.cloudslang.base.math
+  comparisons: io.cloudslang.base.math.comparisons
 
 flow:
   name: create_cluster_with_nodes
@@ -152,7 +152,7 @@ flow:
 
     - check_attempts:
         do:
-          math.compare_numbers:
+          comparisons.compare_numbers:
             - value1: ${attempts}
             - value2: 0
             - attempts

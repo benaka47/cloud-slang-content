@@ -57,7 +57,8 @@ operation:
     - protocol:
         default: 'https'
         required: false
-    - username
+    - username:
+        required: false
     - password
     - trust_everyone:
         required: false

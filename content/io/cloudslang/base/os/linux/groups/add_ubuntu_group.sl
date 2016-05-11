@@ -27,7 +27,7 @@
 namespace: io.cloudslang.base.os.linux.groups
 
 imports:
-  ssh: io.cloudslang.base.ssh
+  ssh: io.cloudslang.base.remote_command_execution.ssh
   utils: io.cloudslang.base.utils
 
 flow:

@@ -38,7 +38,7 @@ namespace: io.cloudslang.cloud.openstack.keypairs
 
 imports:
   openstack: io.cloudslang.cloud.openstack
-  rest: io.cloudslang.base.http
+  rest: io.cloudslang.base.network.rest
 
 flow:
   name: create_keypair

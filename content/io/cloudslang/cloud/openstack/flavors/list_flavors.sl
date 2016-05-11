@@ -38,7 +38,7 @@
 namespace: io.cloudslang.cloud.openstack.flavors
 
 imports:
-  rest: io.cloudslang.base.http
+  rest: io.cloudslang.base.network.rest
   openstack: io.cloudslang.cloud.openstack
   utils: io.cloudslang.cloud.openstack.utils
 

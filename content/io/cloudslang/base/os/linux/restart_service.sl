@@ -32,7 +32,7 @@
 namespace: io.cloudslang.base.os.linux
 
 imports:
-  ssh_command: io.cloudslang.base.ssh
+  ssh_command: io.cloudslang.base.remote_command_execution.ssh
   strings: io.cloudslang.base.strings
 
 flow:

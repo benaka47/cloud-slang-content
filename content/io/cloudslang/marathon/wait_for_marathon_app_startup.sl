@@ -105,7 +105,7 @@ flow:
 
     - check_if_timed_out:
          do:
-            math.compare_numbers:
+            math.comparisons.compare_numbers:
               - value1: ${attempts}
               - value2: 0
          navigate:

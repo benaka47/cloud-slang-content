@@ -40,7 +40,7 @@
 namespace: io.cloudslang.cloud.heroku.applications
 
 imports:
-  rest: io.cloudslang.base.http
+  rest: io.cloudslang.base.network.rest
   json: io.cloudslang.base.json
   strings: io.cloudslang.base.strings
 

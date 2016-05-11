@@ -56,7 +56,7 @@
 namespace: io.cloudslang.ci.circleci
 
 imports:
-  rest: io.cloudslang.base.http
+  rest: io.cloudslang.base.network.rest
   json: io.cloudslang.base.json
   mail: io.cloudslang.base.mail
 

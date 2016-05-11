@@ -26,7 +26,7 @@
 namespace: io.cloudslang.cloud.hp_cloud.net
 
 imports:
-  rest: io.cloudslang.base.http
+  rest: io.cloudslang.base.network.rest
 
 flow:
   name: add_ip_to_server

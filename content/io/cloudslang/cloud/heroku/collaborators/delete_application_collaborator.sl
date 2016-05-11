@@ -16,7 +16,7 @@
 namespace: io.cloudslang.cloud.heroku.collaborators
 
 imports:
-  rest: io.cloudslang.base.http
+  rest: io.cloudslang.base.network.rest
 
 flow:
   name: delete_application_collaborator

@@ -34,7 +34,7 @@
 namespace: io.cloudslang.cloud.openstack.servers
 
 imports:
-  rest: io.cloudslang.base.http
+  rest: io.cloudslang.base.network.rest
   openstack: io.cloudslang.cloud.openstack
 
 flow:

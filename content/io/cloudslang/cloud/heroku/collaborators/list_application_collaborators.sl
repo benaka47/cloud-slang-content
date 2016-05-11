@@ -15,7 +15,7 @@
 namespace: io.cloudslang.cloud.heroku.collaborators
 
 imports:
-  rest: io.cloudslang.base.http
+  rest: io.cloudslang.base.network.rest
 
 flow:
   name: list_application_collaborators

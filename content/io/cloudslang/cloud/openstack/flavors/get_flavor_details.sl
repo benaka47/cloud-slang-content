@@ -37,7 +37,7 @@ namespace: io.cloudslang.cloud.openstack.flavors
 
 imports:
   openstack: io.cloudslang.cloud.openstack
-  rest: io.cloudslang.base.http
+  rest: io.cloudslang.base.network.rest
 
 flow:
   name: get_flavor_details

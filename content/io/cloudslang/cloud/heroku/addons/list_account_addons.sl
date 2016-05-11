@@ -14,7 +14,7 @@
 namespace: io.cloudslang.cloud.heroku.addons
 
 imports:
-  rest: io.cloudslang.base.http
+  rest: io.cloudslang.base.network.rest
 
 flow:
   name: list_account_addons

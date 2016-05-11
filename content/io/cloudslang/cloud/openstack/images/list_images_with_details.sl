@@ -37,7 +37,7 @@ namespace: io.cloudslang.cloud.openstack.images
 
 imports:
   openstack: io.cloudslang.cloud.openstack
-  rest: io.cloudslang.base.http
+  rest: io.cloudslang.base.network.rest
 
 flow:
   name: list_images_with_details

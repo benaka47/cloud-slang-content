@@ -24,7 +24,7 @@
 namespace: io.cloudslang.chef
 
 imports:
-  ssh: io.cloudslang.base.ssh
+  ssh: io.cloudslang.base.remote_command_execution.ssh
 
 flow:
   name: knife_command
@@ -54,11 +54,11 @@ flow:
                 'knife ' + knife_cmd + ' --config ' + knife_config}
             - timeout: ${knife_timeout}
         publish:
-          - return_result
+          - returnResult
           - standard_err
           - return_code
 
   outputs:
-    - raw_result: ${return_result}
-    - knife_result: ${standard_err + ' ' + return_result.split('[knife output]')[1] if return_result else ""}
+    - raw_result: ${returnResult}
+    - knife_result: ${standard_err + ' ' + returnResult.split('[knife output]')[1]}
     - standard_err

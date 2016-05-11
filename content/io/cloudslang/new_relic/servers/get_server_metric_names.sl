@@ -27,7 +27,7 @@
 namespace: io.cloudslang.new_relic.servers
 
 imports:
-  rest: io.cloudslang.base.http
+  rest: io.cloudslang.base.network.rest
 
 flow:
   name: get_server_metric_names

@@ -38,7 +38,7 @@ namespace: io.cloudslang.cloud.openstack.blockstorage
 
 imports:
   openstack: io.cloudslang.cloud.openstack
-  rest: io.cloudslang.base.http
+  rest: io.cloudslang.base.network.rest
 
 flow:
   name: delete_volume

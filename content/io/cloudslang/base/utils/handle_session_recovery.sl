@@ -28,8 +28,7 @@
 namespace: io.cloudslang.base.utils
 
 imports:
-  ssh: io.cloudslang.base.ssh
-  math: io.cloudslang.base.math
+  comparisons: io.cloudslang.base.math.comparisons
 
 flow:
   name: handle_session_recovery
@@ -50,7 +49,7 @@ flow:
 
     - check_retries:
         do:
-          math.compare_numbers:
+          comparisons.compare_numbers:
             - value1: ${ retries }
             - value2: 0
             - retries
@@ -63,7 +62,7 @@ flow:
 
     - check_unstable_session:
         do:
-          ssh.check_ssh_unstable_session:
+          check_ssh_unstable_session:
             - return_result
             - return_code
             - exit_status

@@ -15,7 +15,7 @@
 namespace: io.cloudslang.cloud.heroku.domains
 
 imports:
-  rest: io.cloudslang.base.http
+  rest: io.cloudslang.base.network.rest
 
 flow:
   name: list_domains

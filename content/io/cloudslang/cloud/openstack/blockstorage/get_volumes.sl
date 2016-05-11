@@ -38,7 +38,7 @@ namespace: io.cloudslang.cloud.openstack.blockstorage
 imports:
   openstack: io.cloudslang.cloud.openstack
   utils: io.cloudslang.cloud.openstack.utils
-  rest: io.cloudslang.base.http
+  rest: io.cloudslang.base.network.rest
 
 flow:
   name: get_volumes

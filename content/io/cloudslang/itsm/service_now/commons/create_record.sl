@@ -50,7 +50,7 @@
 namespace: io.cloudslang.itsm.service_now.commons
 
 imports:
-  rest: io.cloudslang.base.http
+  rest: io.cloudslang.base.network.rest
   json: io.cloudslang.base.json
 
 flow:

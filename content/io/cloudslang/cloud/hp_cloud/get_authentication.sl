@@ -25,7 +25,7 @@
 namespace: io.cloudslang.cloud.hp_cloud
 
 imports:
-  rest: io.cloudslang.base.http
+  rest: io.cloudslang.base.network.rest
 
 flow:
   name: get_authentication

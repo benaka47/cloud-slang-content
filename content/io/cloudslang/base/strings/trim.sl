@@ -8,7 +8,7 @@
  #!!
  #! @description: Trims sring.
  #! @input string: string   - Example: " good "
- #! @output result: string in which all whitespace characters have been stripped of both sides of the string
+ #! @output result: string without " "
  #!!#
  ####################################################
  namespace: io.cloudslang.base.strings

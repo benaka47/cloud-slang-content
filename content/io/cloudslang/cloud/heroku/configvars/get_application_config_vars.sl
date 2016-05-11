@@ -15,7 +15,7 @@
 namespace: io.cloudslang.cloud.heroku.configvars
 
 imports:
-  rest: io.cloudslang.base.http
+  rest: io.cloudslang.base.network.rest
 
 flow:
   name: get_application_config_vars

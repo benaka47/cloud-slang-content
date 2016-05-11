@@ -35,7 +35,7 @@
 namespace: io.cloudslang.docker.containers
 
 imports:
-  ssh: io.cloudslang.base.ssh
+  ssh: io.cloudslang.base.remote_command_execution.ssh
   images: io.cloudslang.docker.images
 
 flow:

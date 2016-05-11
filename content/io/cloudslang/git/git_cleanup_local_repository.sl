@@ -32,7 +32,7 @@
 namespace: io.cloudslang.git
 
 imports:
-  ssh: io.cloudslang.base.ssh
+  ssh: io.cloudslang.base.remote_command_execution.ssh
 
 flow:
   name: git_cleanup_local_repository

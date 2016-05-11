@@ -36,7 +36,7 @@
 namespace: io.cloudslang.cloud.openshift.applications
 
 imports:
-  rest: io.cloudslang.base.http
+  rest: io.cloudslang.base.network.rest
 
 flow:
   name: scale_down_application

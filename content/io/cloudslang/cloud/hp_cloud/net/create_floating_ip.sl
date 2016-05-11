@@ -24,7 +24,7 @@
 namespace: io.cloudslang.cloud.hp_cloud.net
 
 imports:
-  rest: io.cloudslang.base.http
+  rest: io.cloudslang.base.network.rest
 
 flow:
   name: create_floating_ip
